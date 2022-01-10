@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    color: rgb(31, 32, 41);
+
+}
+.welcome{
+    min-height: 80vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.001),rgba(4,9,30,0.001)), url(pexels-photo-10753291.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+   
+  
+}   
+.welcome h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.places{
+    width:80%;
+    margin:auto;
+    padding-top: 100px;
+
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+
+}
+.row{
+    margin:5%;
+    display: flex;
+    justify-content: space-around;
+}
+.places-col{
+    flex-basis:31%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.places-col img{
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+.video{
+   text-align: center;
+   padding-top: 70px;
+
+}
+.video h3{
+    font-size: 30px;
+}
+.video-kathmandu{
+display: flex;
+
+justify-content: center;
+}
+.video-kathmandu video{
+    border-radius: 34px;
+}
