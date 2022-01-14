@@ -37,9 +37,15 @@ header{
     justify-content: right;
     align-items: center;
     padding: 30px 10%;
-    background-color: rgb(250, 250, 250);
+    
     height: 20px;
-    border:0.0001px solid rgb(189, 172, 172);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1;
+    
     
 
 }
@@ -80,6 +86,7 @@ button:hover{
 .places{
     width:80%;
     margin:auto;
+    margin-bottom: 150px;
     padding-top: 100px;
 
 }
@@ -121,3 +128,29 @@ justify-content: center;
 .video-kathmandu video{
     border-radius: 34px;
 }
+.parallax {
+    /* The image used */
+    background-image: url("mountain.jpg");
+  
+    /* Full height */
+    height: 100vh;
+
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px    ;
+    
+  }
+  .parallax h1{
+      color: white;
+  }
+
+   
+
+  
